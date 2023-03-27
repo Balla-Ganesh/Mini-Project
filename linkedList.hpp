@@ -193,7 +193,6 @@ void dsa::LinkedList<type>::locInsert(type data, int loc)
 template <typename type>
 void dsa::LinkedList<type>::beginDelete()
 {
-    // Node *temp = head;
     dsa::Node<type> *temp = this->head;
     if (this->head != NULL)
     {
@@ -212,8 +211,6 @@ void dsa::LinkedList<type>::lastDelete()
 {
     dsa::Node<type> *temp = this->head;
     dsa::Node<type> *temp1 = this->head;
-    // Node *temp = head;
-    // Node *temp1 = head;
     if (temp == NULL)
     {
         cout << "List is empty\n";
@@ -424,7 +421,6 @@ void dsa::LinkedList<type>::intersect(dsa::Node<type> head1, int pos)
 {
     dsa::Node<type> *temp1 = this->head;
     dsa::Node<type> *temp2 = &head1;
-    // size+=l-pos+1;
     pos--;
     while (pos--)
     {
