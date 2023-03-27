@@ -1,10 +1,11 @@
 #include<bits/stdc++.h>
 #include "./linkedList.hpp"
 using namespace std;
+using namespace dsa;
 
 int main(){
-    dsa::LinkedList<int> List1;
-    dsa::LinkedList<int> List2;
+    LinkedList<int> List1;
+    LinkedList<int> List2;
     List1.beginInsert(21);
     List1.beginInsert(75);
     List1.beginInsert(50);
